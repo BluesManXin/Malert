@@ -10,11 +10,10 @@ import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 
 public class sj_mcvBlock extends TileEntity {
-    public static class TESRsj_mcvBlock extends TileEntitySpecialRenderer
-    {
+    public static class TESRsj_mcvBlock extends TileEntitySpecialRenderer {
         IModelCustom model = AdvancedModelLoader.loadModel
                 (new ResourceLocation(ra2.MODID, "obj/sjmcvblock.obj"));
-        ResourceLocation texture = new ResourceLocation(ra2.MODID, "textures/items/sj_mcv.png");
+        ResourceLocation texture = new ResourceLocation(ra2.MODID, "textures/items/sj_mcvblock.png");
 
         @Override
         public void renderTileEntityAt(TileEntity entity, double x, double y, double z, float p_147500_8_) {

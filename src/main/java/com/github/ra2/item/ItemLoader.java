@@ -6,6 +6,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
 
+//    sjmcv是苏军重工 以此类推 sjby就是兵营
 public class ItemLoader {
     public static Item sjmcv = new ItemSjmcv()
             .setUnlocalizedName("sj_mcv")
